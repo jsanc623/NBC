@@ -1,0 +1,2085 @@
+2019/07/29 01:23:23 ߣ-0- 0:: # Log := Log successfully initiated
+2019/07/29 01:23:23 ߣ-0- 0:: # Log := Initializing application
+2019/07/29 01:24:31 ߣ-0- 0:: # Log := Log successfully initiated
+2019/07/29 01:24:31 ߣ-0- 0:: # Log := Initializing application
+2019/07/29 01:25:00 ߣ-0- 0::0 # Log := Home  GET / 127.0.0.1:51912 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 Log successfully initiated
+2019/07/29 Initializing application
+2019/07/29 Home  GET / 127.0.0.1:52284 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 Log successfully initiated
+2019/07/29 Initializing application
+2019/07/29 Home  GET / 127.0.0.1:52372 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 01:34:12 Log successfully initiated
+2019/07/29 01:34:12 Initializing application
+2019/07/29 01:34:15 Home  GET / 127.0.0.1:52428 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 01:54:57 Log successfully initiated
+2019/07/29 01:54:57 Initializing application
+2019/07/29 01:55:04 NotFoundServer  GET /stations 127.0.0.1:53767 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 01:56:28 Log successfully initiated
+2019/07/29 01:56:28 Initializing application
+2019/07/29 01:56:32 NotFoundServer  GET /stations 127.0.0.1:53845 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 01:58:01 Log successfully initiated
+2019/07/29 01:58:01 Initializing application
+2019/07/29 01:58:08 NotFoundServer  GET /stations 127.0.0.1:53925 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 01:58:33 Log successfully initiated
+2019/07/29 01:58:33 Initializing application
+2019/07/29 01:58:33 Fatal panic => json: cannot unmarshal object into Go value of type []main.Route
+2019/07/29 02:00:44 Log successfully initiated
+2019/07/29 02:00:44 Initializing application
+2019/07/29 02:00:44 Fatal panic => json: cannot unmarshal object into Go value of type []main.Route
+2019/07/29 02:01:03 Log successfully initiated
+2019/07/29 02:01:03 Initializing application
+2019/07/29 02:04:33 Log successfully initiated
+2019/07/29 02:04:33 Initializing application
+2019/07/29 02:05:28 Log successfully initiated
+2019/07/29 02:05:28 Initializing application
+2019/07/29 02:06:36 Log successfully initiated
+2019/07/29 02:06:36 Initializing application
+2019/07/29 02:09:39 Log successfully initiated
+2019/07/29 02:09:39 Initializing application
+2019/07/29 02:19:22 Log successfully initiated
+2019/07/29 02:19:22 Initializing application
+2019/07/29 02:20:31 Log successfully initiated
+2019/07/29 02:20:31 Initializing application
+2019/07/29 02:20:47 Log successfully initiated
+2019/07/29 02:20:47 Initializing application
+2019/07/29 02:20:47 Fatal panic => json: cannot unmarshal string into Go struct field Route.handler of type http.HandlerFunc
+2019/07/29 02:34:02 Log successfully initiated
+2019/07/29 02:34:02 Initializing application
+2019/07/29 02:34:02 Fatal panic => json: cannot unmarshal string into Go struct field Route.handler of type http.Handler
+2019/07/29 03:02:13 Log successfully initiated
+2019/07/29 03:02:13 Initializing application
+2019/07/29 03:02:13 Registering GetStations (GET /stations)
+2019/07/29 03:02:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:02:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:02:13 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:02:13 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:07:46 Log successfully initiated
+2019/07/29 03:07:46 Initializing application
+2019/07/29 03:07:46 Registering GetStations (GET /stations)
+2019/07/29 03:07:46 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:07:46 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:07:46 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:07:46 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:10:50 Log successfully initiated
+2019/07/29 03:10:50 Initializing application
+2019/07/29 03:10:50 Registering GetStations (GET /stations)
+2019/07/29 03:10:50 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:10:50 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:10:50 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:10:50 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:10:54 getJSON:JSONUnmarshal => json: cannot unmarshal number into Go struct field Station.id of type string
+2019/07/29 03:12:28 Log successfully initiated
+2019/07/29 03:12:28 Initializing application
+2019/07/29 03:12:28 Registering GetStations (GET /stations)
+2019/07/29 03:12:28 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:12:28 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:12:28 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:12:28 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:12:33 getJSON:JSONUnmarshal => json: cannot unmarshal number into Go struct field Station.id of type string
+2019/07/29 03:12:58 Log successfully initiated
+2019/07/29 03:12:58 Initializing application
+2019/07/29 03:12:58 Registering GetStations (GET /stations)
+2019/07/29 03:12:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:12:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:12:58 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:12:58 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:12:59 getJSON:JSONUnmarshal => json: invalid use of ,string struct tag, trying to unmarshal unquoted value into int
+2019/07/29 03:13:36 Log successfully initiated
+2019/07/29 03:13:36 Initializing application
+2019/07/29 03:13:36 Registering GetStations (GET /stations)
+2019/07/29 03:13:36 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:13:36 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:13:36 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:13:36 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:13:42 getJSON:JSONUnmarshal => json: cannot unmarshal number into Go struct field Station.latitude of type string
+2019/07/29 03:14:18 Log successfully initiated
+2019/07/29 03:14:18 Initializing application
+2019/07/29 03:14:18 Registering GetStations (GET /stations)
+2019/07/29 03:14:18 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:14:18 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:14:18 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:14:18 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:24:35 Log successfully initiated
+2019/07/29 03:24:35 Initializing application
+2019/07/29 03:24:35 Registering GetStations (GET /stations)
+2019/07/29 03:24:35 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:24:35 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:24:35 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:24:35 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 03:27:13 Log successfully initiated
+2019/07/29 03:27:13 Initializing application
+2019/07/29 03:27:13 Registering GetStations (GET /stations)
+2019/07/29 03:27:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 03:27:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 03:27:13 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 03:27:13 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 12:16:07 Log successfully initiated
+2019/07/29 12:16:07 Initializing application
+2019/07/29 12:16:07 Registering GetStations (GET /stations)
+2019/07/29 12:16:07 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 12:16:07 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 12:16:07 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 12:16:07 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 12:16:13 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:16:13 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:16:14 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:16:19 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:16:19 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:20:30 Log successfully initiated
+2019/07/29 12:20:30 Initializing application
+2019/07/29 12:20:30 Registering GetStations (GET /stations)
+2019/07/29 12:20:30 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 12:20:30 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 12:20:30 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 12:20:30 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 12:20:35 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:21:06 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:22:06 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 12:25:58 Log successfully initiated
+2019/07/29 12:25:58 Initializing application
+2019/07/29 12:25:58 Registering GetStations (GET /stations)
+2019/07/29 12:25:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 12:25:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 12:25:58 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 12:25:58 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 12:26:02 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 14:19:25 Log successfully initiated
+2019/07/29 14:19:25 Initializing application
+2019/07/29 14:19:25 Registering GetStations (GET /stations)
+2019/07/29 14:19:25 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:19:25 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:19:25 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:19:25 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:29:53 Log successfully initiated
+2019/07/29 14:29:53 Initializing application
+2019/07/29 14:29:53 Registering GetStations (GET /stations)
+2019/07/29 14:29:53 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:29:53 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:29:53 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:29:53 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:38:30 Log successfully initiated
+2019/07/29 14:38:30 Initializing application
+2019/07/29 14:38:30 Registering GetStations (GET /stations)
+2019/07/29 14:38:30 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:38:30 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:38:30 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:38:30 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:40:56 Log successfully initiated
+2019/07/29 14:40:56 Initializing application
+2019/07/29 14:40:56 Registering GetStations (GET /stations)
+2019/07/29 14:40:56 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:40:56 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:40:56 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:40:56 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:41:42 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 14:48:15 Log successfully initiated
+2019/07/29 14:48:15 Initializing application
+2019/07/29 14:48:15 Registering GetStations (GET /stations)
+2019/07/29 14:48:15 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:48:15 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:48:15 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:48:15 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:48:41 Log successfully initiated
+2019/07/29 14:48:41 Initializing application
+2019/07/29 14:48:41 Registering GetStations (GET /stations)
+2019/07/29 14:48:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:48:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:48:41 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:48:41 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:49:16 Log successfully initiated
+2019/07/29 14:49:16 Initializing application
+2019/07/29 14:49:16 Registering GetStations (GET /stations)
+2019/07/29 14:49:16 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:49:16 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:49:16 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:49:16 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:49:40 Log successfully initiated
+2019/07/29 14:49:40 Initializing application
+2019/07/29 14:49:40 Registering GetStations (GET /stations)
+2019/07/29 14:49:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:49:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:49:40 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:49:40 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:50:06 Log successfully initiated
+2019/07/29 14:50:06 Initializing application
+2019/07/29 14:50:06 Registering GetStations (GET /stations)
+2019/07/29 14:50:06 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:50:06 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:50:06 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:50:06 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:50:21 Log successfully initiated
+2019/07/29 14:50:21 Initializing application
+2019/07/29 14:50:21 Registering GetStations (GET /stations)
+2019/07/29 14:50:21 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:50:21 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:50:21 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:50:21 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:50:54 Log successfully initiated
+2019/07/29 14:50:54 Initializing application
+2019/07/29 14:50:54 Registering GetStations (GET /stations)
+2019/07/29 14:50:54 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:50:54 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:50:54 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:50:54 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:53:29 Log successfully initiated
+2019/07/29 14:53:29 Initializing application
+2019/07/29 14:53:29 Registering GetStations (GET /stations)
+2019/07/29 14:53:29 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:53:29 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:53:29 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:53:29 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:55:52 Log successfully initiated
+2019/07/29 14:55:52 Initializing application
+2019/07/29 14:55:52 Registering GetStations (GET /stations)
+2019/07/29 14:55:52 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 14:55:52 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 14:55:52 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 14:55:52 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 14:56:03 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 14:56:03 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:07:24 Log successfully initiated
+2019/07/29 15:07:24 Initializing application
+2019/07/29 15:07:25 Registering GetStations (GET /stations)
+2019/07/29 15:07:25 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:07:25 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:07:25 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 15:07:25 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 15:07:39 NotFoundServer  GET /stations/welyn 127.0.0.1:63345 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:08:28 NotFoundServer  GET /stations/wythe 127.0.0.1:63350 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:09:39 NotFoundServer  GET /stations/wythe 127.0.0.1:63355 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:11:11 Log successfully initiated
+2019/07/29 15:11:11 Initializing application
+2019/07/29 15:11:11 Registering GetStations (GET /stations)
+2019/07/29 15:11:11 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:11:11 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:11:11 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 15:11:11 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 15:12:58 NotFoundServer  GET /stations/wythe 127.0.0.1:63359 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:13:34 NotFoundServer  GET /stations/wythe 127.0.0.1:63364 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:13:42 NotFoundServer  GET /stations/:wythe 127.0.0.1:63368 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:13:45 NotFoundServer  GET /stations/wythe 127.0.0.1:63368 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:17:02 Log successfully initiated
+2019/07/29 15:17:02 Initializing application
+2019/07/29 15:17:02 Registering GetStations (GET /stations)
+2019/07/29 15:17:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:17:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:17:02 Registering GetStationsMatchingString (GET /stations/:search)
+2019/07/29 15:17:02 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 15:17:15 NotFoundServer  GET /stations/wythe 127.0.0.1:63380 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:17:38 Log successfully initiated
+2019/07/29 15:17:38 Initializing application
+2019/07/29 15:17:38 Registering GetStations (GET /stations)
+2019/07/29 15:17:38 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:17:38 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:17:38 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:17:38 Registering GetIsBikeDockable (GET /dockable/:stationId/:bikesToReturn)
+2019/07/29 15:17:40 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:17:40 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:19:09 Log successfully initiated
+2019/07/29 15:19:09 Initializing application
+2019/07/29 15:19:09 Registering GetStations (GET /stations)
+2019/07/29 15:19:09 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:19:09 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:19:09 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:19:09 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:19:11 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:19:11 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:19:15 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:19:15 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:19:18 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:19:21 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:19:24 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:19:26 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:19:28 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:20:06 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:21:04 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:21:04 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:21:44 Log successfully initiated
+2019/07/29 15:21:44 Initializing application
+2019/07/29 15:21:44 Registering GetStations (GET /stations)
+2019/07/29 15:21:44 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:21:44 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:21:44 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:21:44 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:21:47 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:21:47 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:22:36 Log successfully initiated
+2019/07/29 15:22:36 Initializing application
+2019/07/29 15:22:36 Registering GetStations (GET /stations)
+2019/07/29 15:22:36 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:22:36 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:22:36 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:22:36 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:24:46 Log successfully initiated
+2019/07/29 15:24:46 Initializing application
+2019/07/29 15:24:46 Registering GetStations (GET /stations)
+2019/07/29 15:24:46 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:24:46 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:24:46 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:24:46 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:24:53 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:24:53 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:25:39 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:25:39 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:27:11 Log successfully initiated
+2019/07/29 15:27:11 Initializing application
+2019/07/29 15:27:11 Registering GetStations (GET /stations)
+2019/07/29 15:27:11 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:27:11 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:27:11 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:27:11 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:27:14 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:27:14 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:27:18 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:27:18 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:08 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:08 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:11 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:11 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:21 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:21 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:27 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:27 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:31 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:31 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:42 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:42 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:28:46 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:28:46 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:31:25 Log successfully initiated
+2019/07/29 15:31:25 Initializing application
+2019/07/29 15:31:25 Registering GetStations (GET /stations)
+2019/07/29 15:31:25 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:31:25 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:31:25 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:31:25 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:31:31 GetQueryParameter  => GetQueryParameter Failed to find key: perPage
+2019/07/29 15:31:31 GetQueryParameter  => GetQueryParameter Failed to find key: page
+2019/07/29 15:34:00 Log successfully initiated
+2019/07/29 15:34:00 Initializing application
+2019/07/29 15:34:00 Registering GetStations (GET /stations)
+2019/07/29 15:34:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:34:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:34:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:34:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:34:08 Log successfully initiated
+2019/07/29 15:34:08 Initializing application
+2019/07/29 15:34:08 Registering GetStations (GET /stations)
+2019/07/29 15:34:08 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:34:08 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:34:08 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:34:08 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:45:54 NotFoundServer  GET /dockable 127.0.0.1:63522 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:47:37 Log successfully initiated
+2019/07/29 15:47:37 Initializing application
+2019/07/29 15:47:37 Registering GetStations (GET /stations)
+2019/07/29 15:47:37 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:47:37 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:47:37 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:47:37 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:47:40 NotFoundServer  GET /dockable 127.0.0.1:63526 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:47:44 NotFoundServer  GET /dockable/ 127.0.0.1:63526 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:47:47 NotFoundServer  GET /dockable/aldsfj 127.0.0.1:63526 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:48:05 Log successfully initiated
+2019/07/29 15:48:05 Initializing application
+2019/07/29 15:48:05 Registering GetStations (GET /stations)
+2019/07/29 15:48:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:48:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:48:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:48:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:48:07 NotFoundServer  GET /dockable/aldsfj 127.0.0.1:63530 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 15:48:11 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:11 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:12 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:12 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:12 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:18 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:18 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:48:49 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:49:49 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:55:27 Log successfully initiated
+2019/07/29 15:55:27 Initializing application
+2019/07/29 15:55:28 Registering GetStations (GET /stations)
+2019/07/29 15:55:28 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:55:28 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:55:28 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:55:28 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:55:32 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:58:24 Log successfully initiated
+2019/07/29 15:58:24 Initializing application
+2019/07/29 15:58:24 Registering GetStations (GET /stations)
+2019/07/29 15:58:24 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:58:24 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:58:24 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:58:24 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:58:26 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 15:58:26 GetIsBikeDockable:bikesToReturn => strconv.Atoi: parsing "adfadf": invalid syntax
+2019/07/29 15:59:51 Log successfully initiated
+2019/07/29 15:59:51 Initializing application
+2019/07/29 15:59:51 Registering GetStations (GET /stations)
+2019/07/29 15:59:51 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 15:59:51 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 15:59:51 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 15:59:51 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 15:59:53 GetIsBikeDockable:stationId => strconv.Atoi: parsing "aldsfj": invalid syntax
+2019/07/29 16:00:04 GetIsBikeDockable:bikesToReturn => strconv.Atoi: parsing "adfadf": invalid syntax
+2019/07/29 16:01:36 Log successfully initiated
+2019/07/29 16:01:36 Initializing application
+2019/07/29 16:01:36 Registering GetStations (GET /stations)
+2019/07/29 16:01:36 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 16:01:36 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 16:01:36 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 16:01:36 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 16:01:54 GetIsBikeDockable  GET /dockable/124/3 127.0.0.1:63603 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 16:02:09 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63609 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:37:32 Log successfully initiated
+2019/07/29 17:37:32 Initializing application
+2019/07/29 17:37:33 Registering GetStations (GET /stations)
+2019/07/29 17:37:33 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:37:33 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:37:33 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:37:33 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:40:01 Log successfully initiated
+2019/07/29 17:40:01 Initializing application
+2019/07/29 17:40:01 Registering GetStations (GET /stations)
+2019/07/29 17:40:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:40:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:40:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:40:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:40:03 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63856 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:43:06 Log successfully initiated
+2019/07/29 17:43:06 Initializing application
+2019/07/29 17:43:06 Registering GetStations (GET /stations)
+2019/07/29 17:43:06 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:43:06 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:43:06 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:43:06 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:43:09 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63867 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:48:22 Log successfully initiated
+2019/07/29 17:48:22 Initializing application
+2019/07/29 17:48:23 Registering GetStations (GET /stations)
+2019/07/29 17:48:23 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:48:23 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:48:23 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:48:23 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:48:23 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63902 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:48:45 Log successfully initiated
+2019/07/29 17:48:45 Initializing application
+2019/07/29 17:48:45 Registering GetStations (GET /stations)
+2019/07/29 17:48:45 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:48:45 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:48:45 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:48:45 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:48:46 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63909 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:48:59 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63915 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:49:28 Log successfully initiated
+2019/07/29 17:49:28 Initializing application
+2019/07/29 17:49:29 Registering GetStations (GET /stations)
+2019/07/29 17:49:29 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:49:29 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:49:29 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:49:29 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:49:31 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63922 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:51:20 Log successfully initiated
+2019/07/29 17:51:20 Initializing application
+2019/07/29 17:51:20 Registering GetStations (GET /stations)
+2019/07/29 17:51:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:51:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:51:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:51:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:51:23 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63932 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:53:00 Log successfully initiated
+2019/07/29 17:53:00 Initializing application
+2019/07/29 17:53:00 Registering GetStations (GET /stations)
+2019/07/29 17:53:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:53:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:53:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:53:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:53:02 GetStationsNotInService /stations/not-in-service?page=1&perPage=5 page=1&perPage=5  GET /stations/not-in-service 127.0.0.1:63938 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:57:55 Log successfully initiated
+2019/07/29 17:57:55 Initializing application
+2019/07/29 17:57:55 Registering GetStations (GET /stations)
+2019/07/29 17:57:55 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:57:55 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:57:55 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:57:55 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:57:58 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63951 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 17:58:25 Log successfully initiated
+2019/07/29 17:58:25 Initializing application
+2019/07/29 17:58:25 Registering GetStations (GET /stations)
+2019/07/29 17:58:25 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 17:58:25 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 17:58:25 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 17:58:25 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 17:58:30 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:63960 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:06:13 Log successfully initiated
+2019/07/29 18:06:13 Initializing application
+2019/07/29 18:06:13 Registering GetStations (GET /stations)
+2019/07/29 18:06:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:06:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:06:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:06:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:06:16 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64027 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:06:16 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64027 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:07:01 Log successfully initiated
+2019/07/29 18:07:01 Initializing application
+2019/07/29 18:07:01 Registering GetStations (GET /stations)
+2019/07/29 18:07:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:07:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:07:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:07:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:07:03 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64033 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:20:32 Log successfully initiated
+2019/07/29 18:20:32 Initializing application
+2019/07/29 18:20:33 Registering GetStations (GET /stations)
+2019/07/29 18:20:33 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:20:33 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:20:33 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:20:33 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:21:49 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64073 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:21:52 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64073 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:21:59 GetIsBikeDockable  GET /dockable/124/3 127.0.0.1:64079 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:03 GetIsBikeDockable  GET /dockable/124/1 127.0.0.1:64079 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:07 GetIsBikeDockable  GET /dockable/122/1 127.0.0.1:64079 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:19 GetIsBikeDockable  GET /dockable/412/1 127.0.0.1:64083 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:23 GetIsBikeDockable  GET /dockable/412/6 127.0.0.1:64083 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:25 GetIsBikeDockable  GET /dockable/412/7 127.0.0.1:64083 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:28 GetIsBikeDockable  GET /dockable/412/8 127.0.0.1:64083 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:32 GetIsBikeDockable  GET /dockable/412/9 127.0.0.1:64083 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:51 GetIsBikeDockable  GET /dockable/412/13 127.0.0.1:64089 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:22:54 GetIsBikeDockable  GET /dockable/412/14 127.0.0.1:64089 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:25:01 Log successfully initiated
+2019/07/29 18:25:01 Initializing application
+2019/07/29 18:25:01 Registering GetStations (GET /stations)
+2019/07/29 18:25:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:25:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:25:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:25:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:25:04 GetIsBikeDockable  GET /dockable/412/13 127.0.0.1:64094 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:25:08 GetIsBikeDockable  GET /dockable/412/14 127.0.0.1:64094 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:25:11 GetIsBikeDockable  GET /dockable/412/15 127.0.0.1:64094 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:25:13 GetIsBikeDockable  GET /dockable/412/18 127.0.0.1:64094 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:25:32 Log successfully initiated
+2019/07/29 18:25:32 Initializing application
+2019/07/29 18:25:32 Registering GetStations (GET /stations)
+2019/07/29 18:25:32 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:25:32 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:25:32 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:25:32 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:25:39 GetIsBikeDockable  GET /dockable/412/18 127.0.0.1:64100 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:26:05 Log successfully initiated
+2019/07/29 18:26:05 Initializing application
+2019/07/29 18:26:05 Registering GetStations (GET /stations)
+2019/07/29 18:26:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:26:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:26:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:26:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:26:07 GetIsBikeDockable  GET /dockable/412/18 127.0.0.1:64106 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:26:35 Log successfully initiated
+2019/07/29 18:26:35 Initializing application
+2019/07/29 18:26:35 Registering GetStations (GET /stations)
+2019/07/29 18:26:35 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:26:35 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:26:35 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:26:35 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:26:36 GetIsBikeDockable  GET /dockable/412/18 127.0.0.1:64112 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:27:14 Log successfully initiated
+2019/07/29 18:27:14 Initializing application
+2019/07/29 18:27:14 Registering GetStations (GET /stations)
+2019/07/29 18:27:14 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:27:14 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:27:14 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:27:14 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:27:24 Log successfully initiated
+2019/07/29 18:27:24 Initializing application
+2019/07/29 18:27:24 Registering GetStations (GET /stations)
+2019/07/29 18:27:24 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:27:24 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:27:24 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:27:24 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:27:26 GetIsBikeDockable  GET /dockable/412/18 127.0.0.1:64118 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:27:33 GetIsBikeDockable  GET /dockable/412/14 127.0.0.1:64124 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:27:46 GetIsBikeDockable  GET /dockable/414/14 127.0.0.1:64128 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:45:43 Log successfully initiated
+2019/07/29 18:45:43 Initializing application
+2019/07/29 18:45:43 Registering GetStations (GET /stations)
+2019/07/29 18:45:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:45:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:45:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:45:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:45:56 GetIsBikeDockable  GET /dockable/414/14 127.0.0.1:64181 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:45:57 getJSON:JSONUnmarshal => unexpected end of JSON input
+2019/07/29 18:46:17 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64195 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:46:58 Log successfully initiated
+2019/07/29 18:46:58 Initializing application
+2019/07/29 18:46:58 Registering GetStations (GET /stations)
+2019/07/29 18:46:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:46:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:46:58 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:46:58 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:47:01 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64247 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:47:01 getJSON:JSONUnmarshal => unexpected end of JSON input
+2019/07/29 18:47:52 Log successfully initiated
+2019/07/29 18:47:52 Initializing application
+2019/07/29 18:47:52 Registering GetStations (GET /stations)
+2019/07/29 18:47:52 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:47:52 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:47:52 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:47:52 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:47:55 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64294 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:47:55 SKIP CACHE
+2019/07/29 18:47:55 getJSON:JSONUnmarshal => unexpected end of JSON input
+2019/07/29 18:48:10 GetStations  GET /stations 127.0.0.1:64316 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:48:10 HIT CACHE
+2019/07/29 18:48:22 GetStationsInService  GET /stations/in-service 127.0.0.1:64330 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:48:22 HIT CACHE
+2019/07/29 18:50:16 Log successfully initiated
+2019/07/29 18:50:16 Initializing application
+2019/07/29 18:50:16 Registering GetStations (GET /stations)
+2019/07/29 18:50:16 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:50:16 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:50:16 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:50:16 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:50:18 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64435 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:50:18 SKIP CACHE
+2019/07/29 18:50:32 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64457 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:50:32 HIT CACHE
+2019/07/29 18:50:52 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64481 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:50:52 HIT CACHE
+2019/07/29 18:52:05 Log successfully initiated
+2019/07/29 18:52:05 Initializing application
+2019/07/29 18:52:05 Registering GetStations (GET /stations)
+2019/07/29 18:52:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 18:52:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 18:52:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 18:52:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 18:52:07 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:52:07 SKIP CACHE
+2019/07/29 18:52:12 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:52:17 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:52:20 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:64546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:52:24 GetStationsInService  GET /stations/in-service 127.0.0.1:64546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 18:52:27 GetStationsMatchingString  GET /stations/wythe 127.0.0.1:64546 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:28:27 Log successfully initiated
+2019/07/29 19:28:27 Initializing application
+2019/07/29 19:28:27 Registering GetStations (GET /stations)
+2019/07/29 19:28:27 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:28:27 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:28:27 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:28:27 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:28:28 GetStations  GET /stations 127.0.0.1:50230 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:43:10 Log successfully initiated
+2019/07/29 19:43:10 Initializing application
+2019/07/29 19:46:13 Log successfully initiated
+2019/07/29 19:46:13 Initializing application
+2019/07/29 19:46:13 Registering GetStations (GET /stations)
+2019/07/29 19:46:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:46:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:46:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:46:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:46:24 GetStations  GET /stations 127.0.0.1:51137 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:28 GetStations  GET /stations 127.0.0.1:51137 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:34 GetStations  GET /stations 127.0.0.1:51143 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:41 GetStationsMatchingString  GET /stations/wythe 127.0.0.1:51154 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:45 GetStationsMatchingString  GET /stations/metro 127.0.0.1:51154 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:49 GetStationsMatchingString  GET /stations/prospect 127.0.0.1:51154 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:52 GetStationsNotInService  GET /stations/not-in-service 127.0.0.1:51154 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:46:55 GetStationsInService  GET /stations/in-service 127.0.0.1:51154 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:52:05 Log successfully initiated
+2019/07/29 19:52:05 Initializing application
+2019/07/29 19:52:05 Registering GetStations (GET /stations)
+2019/07/29 19:52:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:52:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:52:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:52:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:52:06 Log successfully initiated
+2019/07/29 19:52:24 GetStationsInService  GET /stations/in-service 127.0.0.1:51164 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 19:55:10 Log successfully initiated
+2019/07/29 19:55:10 Initializing application
+2019/07/29 19:56:27 Log successfully initiated
+2019/07/29 19:56:27 Initializing application
+2019/07/29 19:56:27 Registering GetStations (GET /stations)
+2019/07/29 19:56:27 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:56:27 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:56:27 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:56:27 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:56:27 Log successfully initiated
+2019/07/29 19:56:56 Log successfully initiated
+2019/07/29 19:56:56 Initializing application
+2019/07/29 19:56:56 Registering GetStations (GET /stations)
+2019/07/29 19:56:56 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:56:56 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:56:56 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:56:56 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:56:56 Log successfully initiated
+2019/07/29 19:59:02 Log successfully initiated
+2019/07/29 19:59:02 Initializing application
+2019/07/29 19:59:02 Registering GetStations (GET /stations)
+2019/07/29 19:59:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:59:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:59:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:59:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:59:03 Log successfully initiated
+2019/07/29 19:59:03 GetStations  GET /stations  
+2019/07/29 19:59:04 Registering GetStations (GET /stations)
+2019/07/29 19:59:04 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:59:04 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:59:04 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:59:04 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:59:04 Log successfully initiated
+2019/07/29 19:59:04 GetStations  GET /stations  
+2019/07/29 19:59:05 Registering GetStations (GET /stations)
+2019/07/29 19:59:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 19:59:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 19:59:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 19:59:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 19:59:05 Log successfully initiated
+2019/07/29 20:11:57 Log successfully initiated
+2019/07/29 20:11:57 Initializing application
+2019/07/29 20:11:57 Registering GetStations (GET /stations)
+2019/07/29 20:11:57 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:11:57 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:11:57 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:11:57 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:11:57 Log successfully initiated
+2019/07/29 20:11:57 GetStations  GET /stations  
+2019/07/29 20:11:58 Registering GetStations (GET /stations)
+2019/07/29 20:11:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:11:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:11:58 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:11:58 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:11:58 Log successfully initiated
+2019/07/29 20:11:58 GetStations  GET /stations  
+2019/07/29 20:11:58 Registering GetStations (GET /stations)
+2019/07/29 20:11:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:11:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:11:58 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:11:58 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:11:58 Log successfully initiated
+2019/07/29 20:13:48 Log successfully initiated
+2019/07/29 20:13:48 Initializing application
+2019/07/29 20:13:48 Registering GetStations (GET /stations)
+2019/07/29 20:13:48 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:13:48 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:13:48 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:13:48 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:13:48 Log successfully initiated
+2019/07/29 20:13:48 GetStations  GET /stations  
+2019/07/29 20:13:50 Registering GetStations (GET /stations)
+2019/07/29 20:13:50 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:13:50 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:13:50 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:13:50 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:13:50 Log successfully initiated
+2019/07/29 20:13:50 GetStations  GET /stations  
+2019/07/29 20:13:50 Registering GetStations (GET /stations)
+2019/07/29 20:13:50 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:13:50 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:13:50 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:13:50 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:13:51 Log successfully initiated
+2019/07/29 20:27:17 Log successfully initiated
+2019/07/29 20:27:17 Initializing application
+2019/07/29 20:27:17 Registering GetStations (GET /stations)
+2019/07/29 20:27:17 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:27:17 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:27:17 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:27:17 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:27:18 Log successfully initiated
+2019/07/29 20:27:18 GetStations  GET /stations  
+2019/07/29 20:27:19 Registering GetStations (GET /stations)
+2019/07/29 20:27:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:27:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:27:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:27:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:27:19 Log successfully initiated
+2019/07/29 20:27:19 GetStations  GET /stations  
+2019/07/29 20:27:19 Registering GetStations (GET /stations)
+2019/07/29 20:27:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:27:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:27:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:27:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:27:19 Log successfully initiated
+2019/07/29 20:33:42 Log successfully initiated
+2019/07/29 20:33:42 Initializing application
+2019/07/29 20:33:42 Registering GetStations (GET /stations)
+2019/07/29 20:33:42 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:33:42 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:33:42 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:33:42 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:33:42 Log successfully initiated
+2019/07/29 20:33:42 GetStations  GET /stations  
+2019/07/29 20:33:43 Registering GetStations (GET /stations)
+2019/07/29 20:33:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:33:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:33:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:33:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:33:43 Log successfully initiated
+2019/07/29 20:33:43 GetStations  GET /stations  
+2019/07/29 20:33:43 Registering GetStations (GET /stations)
+2019/07/29 20:33:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:33:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:33:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:33:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:33:43 Log successfully initiated
+2019/07/29 20:33:54 Log successfully initiated
+2019/07/29 20:33:54 Initializing application
+2019/07/29 20:33:54 Registering GetStations (GET /stations)
+2019/07/29 20:33:54 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:33:54 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:33:54 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:33:54 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:33:55 Log successfully initiated
+2019/07/29 20:33:55 GetStations  GET /stations  
+2019/07/29 20:33:55 Registering GetStations (GET /stations)
+2019/07/29 20:33:55 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:33:55 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:33:55 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:33:55 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:33:56 Log successfully initiated
+2019/07/29 20:33:56 GetStations  GET /stations  
+2019/07/29 20:33:56 Registering GetStations (GET /stations)
+2019/07/29 20:33:56 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:33:56 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:33:56 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:33:56 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:33:56 Log successfully initiated
+2019/07/29 20:34:19 Log successfully initiated
+2019/07/29 20:34:19 Initializing application
+2019/07/29 20:34:19 Registering GetStations (GET /stations)
+2019/07/29 20:34:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:34:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:34:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:34:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:34:21 GetStations  GET /stations 127.0.0.1:51212 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 20:35:13 Log successfully initiated
+2019/07/29 20:35:13 Initializing application
+2019/07/29 20:35:14 Registering GetStations (GET /stations)
+2019/07/29 20:35:14 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:14 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:14 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:14 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:14 Log successfully initiated
+2019/07/29 20:35:14 GetStations  GET /stations  
+2019/07/29 20:35:15 Registering GetStations (GET /stations)
+2019/07/29 20:35:15 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:15 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:15 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:15 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:15 Log successfully initiated
+2019/07/29 20:35:15 GetStations  GET /stations  
+2019/07/29 20:35:15 Registering GetStations (GET /stations)
+2019/07/29 20:35:15 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:15 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:15 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:15 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:16 Log successfully initiated
+2019/07/29 20:35:28 Log successfully initiated
+2019/07/29 20:35:28 Initializing application
+2019/07/29 20:35:28 Registering GetStations (GET /stations)
+2019/07/29 20:35:28 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:28 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:28 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:28 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:28 Log successfully initiated
+2019/07/29 20:35:28 GetStations  GET /stations  
+2019/07/29 20:35:29 Registering GetStations (GET /stations)
+2019/07/29 20:35:29 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:29 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:29 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:29 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:29 Log successfully initiated
+2019/07/29 20:35:29 GetStations  GET /stations  
+2019/07/29 20:35:29 Registering GetStations (GET /stations)
+2019/07/29 20:35:29 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:29 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:29 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:29 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:30 Log successfully initiated
+2019/07/29 20:35:43 Log successfully initiated
+2019/07/29 20:35:43 Initializing application
+2019/07/29 20:35:43 Registering GetStations (GET /stations)
+2019/07/29 20:35:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:44 Log successfully initiated
+2019/07/29 20:35:44 GetStations  GET /stations  
+2019/07/29 20:35:44 Registering GetStations (GET /stations)
+2019/07/29 20:35:44 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:44 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:44 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:44 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:45 Log successfully initiated
+2019/07/29 20:35:45 GetStations  GET /stations  
+2019/07/29 20:35:45 Registering GetStations (GET /stations)
+2019/07/29 20:35:45 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:45 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:45 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:45 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:45 Log successfully initiated
+2019/07/29 20:35:57 Log successfully initiated
+2019/07/29 20:35:57 Initializing application
+2019/07/29 20:35:58 Registering GetStations (GET /stations)
+2019/07/29 20:35:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:58 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:58 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:58 Log successfully initiated
+2019/07/29 20:35:58 GetStations  GET /stations  
+2019/07/29 20:35:59 Registering GetStations (GET /stations)
+2019/07/29 20:35:59 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:59 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:59 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:59 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:59 Log successfully initiated
+2019/07/29 20:35:59 GetStations  GET /stations  
+2019/07/29 20:35:59 Registering GetStations (GET /stations)
+2019/07/29 20:35:59 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:35:59 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:35:59 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:35:59 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:35:59 Log successfully initiated
+2019/07/29 20:39:19 Log successfully initiated
+2019/07/29 20:39:19 Initializing application
+2019/07/29 20:39:19 Registering GetStations (GET /stations)
+2019/07/29 20:39:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:39:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:39:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:39:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:39:19 Log successfully initiated
+2019/07/29 20:39:19 GetStations  GET /stations  
+2019/07/29 20:39:20 Registering GetStations (GET /stations)
+2019/07/29 20:39:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:39:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:39:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:39:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:39:20 Log successfully initiated
+2019/07/29 20:39:20 GetStations  GET /stations  
+2019/07/29 20:39:20 Registering GetStations (GET /stations)
+2019/07/29 20:39:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:39:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:39:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:39:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:39:20 Log successfully initiated
+2019/07/29 20:40:35 Log successfully initiated
+2019/07/29 20:40:35 Initializing application
+2019/07/29 20:40:35 Registering GetStations (GET /stations)
+2019/07/29 20:40:35 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:40:35 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:40:35 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:40:35 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:40:35 Log successfully initiated
+2019/07/29 20:40:35 GetStations  GET /stations  
+2019/07/29 20:40:36 Registering GetStations (GET /stations)
+2019/07/29 20:40:36 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:40:36 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:40:36 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:40:36 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:40:36 Log successfully initiated
+2019/07/29 20:40:36 GetStations  GET /stations  
+2019/07/29 20:40:36 Registering GetStations (GET /stations)
+2019/07/29 20:40:36 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:40:36 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:40:36 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:40:36 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:40:37 Log successfully initiated
+2019/07/29 20:41:03 Log successfully initiated
+2019/07/29 20:41:03 Initializing application
+2019/07/29 20:41:03 Registering GetStations (GET /stations)
+2019/07/29 20:41:03 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:41:03 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:41:03 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:41:03 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:41:03 Log successfully initiated
+2019/07/29 20:41:03 GetStations  GET /stations  
+2019/07/29 20:41:03 Registering GetStations (GET /stations)
+2019/07/29 20:41:03 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:41:03 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:41:03 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:41:03 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:41:04 Log successfully initiated
+2019/07/29 20:41:04 GetStations  GET /stations  
+2019/07/29 20:41:04 Registering GetStations (GET /stations)
+2019/07/29 20:41:04 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:41:04 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:41:04 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:41:04 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:41:04 Log successfully initiated
+2019/07/29 20:41:43 Log successfully initiated
+2019/07/29 20:41:43 Initializing application
+2019/07/29 20:41:43 Registering GetStations (GET /stations)
+2019/07/29 20:41:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:41:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:41:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:41:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:41:43 Log successfully initiated
+2019/07/29 20:41:43 GetStations  GET /stations  
+2019/07/29 20:41:44 Registering GetStations (GET /stations)
+2019/07/29 20:41:44 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:41:44 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:41:44 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:41:44 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:41:44 Log successfully initiated
+2019/07/29 20:41:44 GetStations  GET /stations  
+2019/07/29 20:41:44 Registering GetStations (GET /stations)
+2019/07/29 20:41:44 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:41:44 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:41:44 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:41:44 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:41:45 Log successfully initiated
+2019/07/29 20:42:13 Log successfully initiated
+2019/07/29 20:42:13 Initializing application
+2019/07/29 20:42:13 Registering GetStations (GET /stations)
+2019/07/29 20:42:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:13 Log successfully initiated
+2019/07/29 20:42:13 GetStations  GET /stations  
+2019/07/29 20:42:14 Registering GetStations (GET /stations)
+2019/07/29 20:42:14 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:14 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:14 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:14 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:14 Log successfully initiated
+2019/07/29 20:42:14 GetStations  GET /stations  
+2019/07/29 20:42:14 Registering GetStations (GET /stations)
+2019/07/29 20:42:14 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:14 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:14 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:14 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:15 Log successfully initiated
+2019/07/29 20:42:15 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:42:15 Registering GetStations (GET /stations)
+2019/07/29 20:42:15 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:15 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:15 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:15 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:15 Log successfully initiated
+2019/07/29 20:42:15 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:42:15 Registering GetStations (GET /stations)
+2019/07/29 20:42:15 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:15 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:15 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:15 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:15 Log successfully initiated
+2019/07/29 20:42:15 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:42:15 Registering GetStations (GET /stations)
+2019/07/29 20:42:16 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:16 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:16 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:16 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:16 Log successfully initiated
+2019/07/29 20:42:16 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:42:51 Log successfully initiated
+2019/07/29 20:42:51 Initializing application
+2019/07/29 20:42:51 Registering GetStations (GET /stations)
+2019/07/29 20:42:51 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:51 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:51 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:51 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:52 Log successfully initiated
+2019/07/29 20:42:52 GetStations  GET /stations  
+2019/07/29 20:42:52 Registering GetStations (GET /stations)
+2019/07/29 20:42:52 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:52 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:52 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:52 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:52 Log successfully initiated
+2019/07/29 20:42:52 GetStations  GET /stations  
+2019/07/29 20:42:53 Registering GetStations (GET /stations)
+2019/07/29 20:42:53 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:53 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:53 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:53 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:53 Log successfully initiated
+2019/07/29 20:42:53 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:42:53 Registering GetStations (GET /stations)
+2019/07/29 20:42:53 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:53 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:53 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:53 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:53 Log successfully initiated
+2019/07/29 20:42:53 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:42:53 Registering GetStations (GET /stations)
+2019/07/29 20:42:53 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:53 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:53 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:53 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:53 Log successfully initiated
+2019/07/29 20:42:53 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:42:54 Registering GetStations (GET /stations)
+2019/07/29 20:42:54 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:42:54 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:42:54 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:42:54 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:42:54 Log successfully initiated
+2019/07/29 20:42:54 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:47:32 Log successfully initiated
+2019/07/29 20:47:32 Initializing application
+2019/07/29 20:47:32 Registering GetStations (GET /stations)
+2019/07/29 20:47:32 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:47:32 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:47:32 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:47:32 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:47:33 Log successfully initiated
+2019/07/29 20:47:33 GetStations  GET /stations  
+2019/07/29 20:47:33 Registering GetStations (GET /stations)
+2019/07/29 20:47:33 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:47:33 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:47:33 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:47:33 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:47:34 Log successfully initiated
+2019/07/29 20:47:34 GetStations  GET /stations  
+2019/07/29 20:47:34 Registering GetStations (GET /stations)
+2019/07/29 20:47:34 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:47:34 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:47:34 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:47:34 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:47:34 Log successfully initiated
+2019/07/29 20:47:34 GetStations  GET /stations  
+2019/07/29 20:48:11 Log successfully initiated
+2019/07/29 20:48:11 Initializing application
+2019/07/29 20:48:11 Registering GetStations (GET /stations)
+2019/07/29 20:48:11 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:48:11 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:48:11 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:48:11 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:48:12 Log successfully initiated
+2019/07/29 20:48:12 GetStations  GET /stations  
+2019/07/29 20:48:13 Registering GetStations (GET /stations)
+2019/07/29 20:48:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:48:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:48:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:48:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:48:13 Log successfully initiated
+2019/07/29 20:48:13 GetStations  GET /stations  
+2019/07/29 20:48:13 Registering GetStations (GET /stations)
+2019/07/29 20:48:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:48:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:48:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:48:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:48:13 Log successfully initiated
+2019/07/29 20:48:13 GetStations  GET /stations  
+2019/07/29 20:48:25 Log successfully initiated
+2019/07/29 20:48:25 Initializing application
+2019/07/29 20:48:25 Registering GetStations (GET /stations)
+2019/07/29 20:48:25 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:48:25 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:48:25 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:48:25 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:48:26 Log successfully initiated
+2019/07/29 20:48:26 GetStations  GET /stations  
+2019/07/29 20:48:26 Registering GetStations (GET /stations)
+2019/07/29 20:48:26 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:48:26 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:48:26 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:48:26 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:48:27 Log successfully initiated
+2019/07/29 20:48:27 GetStations  GET /stations  
+2019/07/29 20:48:27 Registering GetStations (GET /stations)
+2019/07/29 20:48:27 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:48:27 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:48:27 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:48:27 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:48:27 Log successfully initiated
+2019/07/29 20:48:27 GetStations  GET /stations  
+2019/07/29 20:49:57 Log successfully initiated
+2019/07/29 20:49:57 Initializing application
+2019/07/29 20:49:57 Registering GetStations (GET /stations)
+2019/07/29 20:49:57 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:49:57 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:49:57 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:49:57 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:49:58 Log successfully initiated
+2019/07/29 20:49:58 GetStations  GET /stations  
+2019/07/29 20:49:58 Registering GetStations (GET /stations)
+2019/07/29 20:49:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:49:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:49:58 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:49:58 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:49:58 Log successfully initiated
+2019/07/29 20:49:58 GetStations  GET /stations  
+2019/07/29 20:49:59 Registering GetStations (GET /stations)
+2019/07/29 20:49:59 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:49:59 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:49:59 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:49:59 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:49:59 Log successfully initiated
+2019/07/29 20:49:59 GetStations  GET /stations  
+2019/07/29 20:49:59 Registering GetStations (GET /stations)
+2019/07/29 20:49:59 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:49:59 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:49:59 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:49:59 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:00 Log successfully initiated
+2019/07/29 20:50:00 GetStations  GET /stations  
+2019/07/29 20:50:00 Registering GetStations (GET /stations)
+2019/07/29 20:50:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:00 Log successfully initiated
+2019/07/29 20:50:00 GetStations  GET /stations  
+2019/07/29 20:50:00 Registering GetStations (GET /stations)
+2019/07/29 20:50:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:00 Log successfully initiated
+2019/07/29 20:50:00 GetStations  GET /stations  
+2019/07/29 20:50:00 Registering GetStations (GET /stations)
+2019/07/29 20:50:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:01 Log successfully initiated
+2019/07/29 20:50:01 GetStations  GET /stations  
+2019/07/29 20:50:01 Registering GetStations (GET /stations)
+2019/07/29 20:50:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:01 Log successfully initiated
+2019/07/29 20:50:01 GetStations  GET /stations  
+2019/07/29 20:50:02 Registering GetStations (GET /stations)
+2019/07/29 20:50:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:02 Log successfully initiated
+2019/07/29 20:50:02 GetStations  GET /stations  
+2019/07/29 20:50:02 Registering GetStations (GET /stations)
+2019/07/29 20:50:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:02 Log successfully initiated
+2019/07/29 20:50:02 GetStations  GET /stations  
+2019/07/29 20:50:02 Registering GetStations (GET /stations)
+2019/07/29 20:50:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:03 Log successfully initiated
+2019/07/29 20:50:03 GetStations  GET /stations  
+2019/07/29 20:50:04 Registering GetStations (GET /stations)
+2019/07/29 20:50:04 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:04 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:04 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:04 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:04 Log successfully initiated
+2019/07/29 20:50:04 GetStations  GET /stations  
+2019/07/29 20:50:05 Registering GetStations (GET /stations)
+2019/07/29 20:50:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:05 Log successfully initiated
+2019/07/29 20:50:05 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:50:05 Registering GetStations (GET /stations)
+2019/07/29 20:50:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:05 Log successfully initiated
+2019/07/29 20:50:05 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:50:05 Registering GetStations (GET /stations)
+2019/07/29 20:50:05 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:05 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:05 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:05 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:06 Log successfully initiated
+2019/07/29 20:50:06 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:50:06 Registering GetStations (GET /stations)
+2019/07/29 20:50:06 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:50:06 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:50:06 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:50:06 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:50:06 Log successfully initiated
+2019/07/29 20:50:06 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:52:38 Log successfully initiated
+2019/07/29 20:52:38 Initializing application
+2019/07/29 20:52:38 Registering GetStations (GET /stations)
+2019/07/29 20:52:38 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:38 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:38 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:38 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:38 Log successfully initiated
+2019/07/29 20:52:38 GetStations  GET /stations  
+2019/07/29 20:52:39 Registering GetStations (GET /stations)
+2019/07/29 20:52:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:39 Log successfully initiated
+2019/07/29 20:52:39 GetStations  GET /stations  
+2019/07/29 20:52:39 Registering GetStations (GET /stations)
+2019/07/29 20:52:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:40 Log successfully initiated
+2019/07/29 20:52:40 GetStations  GET /stations  
+2019/07/29 20:52:40 Registering GetStations (GET /stations)
+2019/07/29 20:52:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:40 Log successfully initiated
+2019/07/29 20:52:40 GetStations  GET /stations  
+2019/07/29 20:52:40 Registering GetStations (GET /stations)
+2019/07/29 20:52:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:40 Log successfully initiated
+2019/07/29 20:52:40 GetStations  GET /stations  
+2019/07/29 20:52:40 Registering GetStations (GET /stations)
+2019/07/29 20:52:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:40 Log successfully initiated
+2019/07/29 20:52:40 GetStations  GET /stations  
+2019/07/29 20:52:40 Registering GetStations (GET /stations)
+2019/07/29 20:52:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:41 Log successfully initiated
+2019/07/29 20:52:41 GetStations  GET /stations  
+2019/07/29 20:52:41 Registering GetStations (GET /stations)
+2019/07/29 20:52:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:41 Log successfully initiated
+2019/07/29 20:52:41 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:52:41 Registering GetStations (GET /stations)
+2019/07/29 20:52:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:41 Log successfully initiated
+2019/07/29 20:52:41 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:52:42 Registering GetStations (GET /stations)
+2019/07/29 20:52:42 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:42 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:42 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:42 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:42 Log successfully initiated
+2019/07/29 20:52:42 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:52:43 Registering GetStations (GET /stations)
+2019/07/29 20:52:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:52:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:52:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:52:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:52:43 Log successfully initiated
+2019/07/29 20:52:43 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:54:21 Log successfully initiated
+2019/07/29 20:54:21 Initializing application
+2019/07/29 20:54:21 Registering GetStations (GET /stations)
+2019/07/29 20:54:21 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:21 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:21 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:21 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:21 Log successfully initiated
+2019/07/29 20:54:21 GetStations  GET /stations  
+2019/07/29 20:54:22 Registering GetStations (GET /stations)
+2019/07/29 20:54:22 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:22 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:22 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:22 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:22 Log successfully initiated
+2019/07/29 20:54:22 GetStations  GET /stations  
+2019/07/29 20:54:22 Registering GetStations (GET /stations)
+2019/07/29 20:54:22 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:22 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:22 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:22 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:22 Log successfully initiated
+2019/07/29 20:54:22 GetStations  GET /stations  
+2019/07/29 20:54:23 Registering GetStations (GET /stations)
+2019/07/29 20:54:23 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:23 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:23 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:23 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:23 Log successfully initiated
+2019/07/29 20:54:23 GetStations  GET /stations  
+2019/07/29 20:54:23 Registering GetStations (GET /stations)
+2019/07/29 20:54:23 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:23 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:23 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:23 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:23 Log successfully initiated
+2019/07/29 20:54:23 GetStations  GET /stations  
+2019/07/29 20:54:23 Registering GetStations (GET /stations)
+2019/07/29 20:54:23 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:23 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:23 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:23 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:23 Log successfully initiated
+2019/07/29 20:54:23 GetStations  GET /stations  
+2019/07/29 20:54:24 Registering GetStations (GET /stations)
+2019/07/29 20:54:24 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:24 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:24 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:24 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:24 Log successfully initiated
+2019/07/29 20:54:24 GetStations  GET /stations  
+2019/07/29 20:54:24 Registering GetStations (GET /stations)
+2019/07/29 20:54:24 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:24 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:24 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:24 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:24 Log successfully initiated
+2019/07/29 20:54:24 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:54:24 Registering GetStations (GET /stations)
+2019/07/29 20:54:24 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:24 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:24 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:24 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:24 Log successfully initiated
+2019/07/29 20:54:24 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:54:24 Registering GetStations (GET /stations)
+2019/07/29 20:54:24 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:24 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:24 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:24 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:25 Log successfully initiated
+2019/07/29 20:54:25 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:54:25 Registering GetStations (GET /stations)
+2019/07/29 20:54:25 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:54:25 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:54:25 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:54:25 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:54:25 Log successfully initiated
+2019/07/29 20:54:25 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:55:19 Log successfully initiated
+2019/07/29 20:55:19 Initializing application
+2019/07/29 20:55:19 Registering GetStations (GET /stations)
+2019/07/29 20:55:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:20 Log successfully initiated
+2019/07/29 20:55:20 GetStations  GET /stations  
+2019/07/29 20:55:20 Registering GetStations (GET /stations)
+2019/07/29 20:55:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:20 Log successfully initiated
+2019/07/29 20:55:20 GetStations  GET /stations  
+2019/07/29 20:55:21 Registering GetStations (GET /stations)
+2019/07/29 20:55:21 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:21 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:21 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:21 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:21 Log successfully initiated
+2019/07/29 20:55:21 GetStations  GET /stations  
+2019/07/29 20:55:21 Registering GetStations (GET /stations)
+2019/07/29 20:55:21 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:21 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:21 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:21 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:21 Log successfully initiated
+2019/07/29 20:55:21 GetStations  GET /stations  
+2019/07/29 20:55:21 Registering GetStations (GET /stations)
+2019/07/29 20:55:21 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:21 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:21 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:21 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:22 Log successfully initiated
+2019/07/29 20:55:22 GetStations  GET /stations  
+2019/07/29 20:55:22 Registering GetStations (GET /stations)
+2019/07/29 20:55:22 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:22 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:22 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:22 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:22 Log successfully initiated
+2019/07/29 20:55:22 GetStations  GET /stations  
+2019/07/29 20:55:22 Registering GetStations (GET /stations)
+2019/07/29 20:55:22 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:22 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:22 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:22 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:22 Log successfully initiated
+2019/07/29 20:55:22 GetStations  GET /stations  
+2019/07/29 20:55:22 Registering GetStations (GET /stations)
+2019/07/29 20:55:22 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:22 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:22 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:22 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:22 Log successfully initiated
+2019/07/29 20:55:22 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:55:22 Registering GetStations (GET /stations)
+2019/07/29 20:55:22 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:22 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:22 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:22 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:23 Log successfully initiated
+2019/07/29 20:55:23 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:55:23 Registering GetStations (GET /stations)
+2019/07/29 20:55:23 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:23 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:23 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:23 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:23 Log successfully initiated
+2019/07/29 20:55:23 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:55:23 Registering GetStations (GET /stations)
+2019/07/29 20:55:23 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:55:23 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:55:23 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:55:23 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:55:24 Log successfully initiated
+2019/07/29 20:55:24 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:56:16 Log successfully initiated
+2019/07/29 20:56:16 Initializing application
+2019/07/29 20:56:16 Registering GetStations (GET /stations)
+2019/07/29 20:56:16 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:16 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:16 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:16 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:17 Log successfully initiated
+2019/07/29 20:56:17 GetStations  GET /stations  
+2019/07/29 20:56:18 Registering GetStations (GET /stations)
+2019/07/29 20:56:18 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:18 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:18 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:18 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:18 Log successfully initiated
+2019/07/29 20:56:18 GetStations  GET /stations  
+2019/07/29 20:56:18 Registering GetStations (GET /stations)
+2019/07/29 20:56:18 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:18 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:18 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:18 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:18 Log successfully initiated
+2019/07/29 20:56:18 GetStations  GET /stations  
+2019/07/29 20:56:18 Registering GetStations (GET /stations)
+2019/07/29 20:56:18 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:18 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:18 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:18 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:18 Log successfully initiated
+2019/07/29 20:56:18 GetStations  GET /stations  
+2019/07/29 20:56:19 Registering GetStations (GET /stations)
+2019/07/29 20:56:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:19 Log successfully initiated
+2019/07/29 20:56:19 GetStations  GET /stations  
+2019/07/29 20:56:19 Registering GetStations (GET /stations)
+2019/07/29 20:56:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:19 Log successfully initiated
+2019/07/29 20:56:19 GetStations  GET /stations  
+2019/07/29 20:56:19 Registering GetStations (GET /stations)
+2019/07/29 20:56:19 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:19 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:19 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:19 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:19 Log successfully initiated
+2019/07/29 20:56:19 GetStations  GET /stations  
+2019/07/29 20:56:20 Registering GetStations (GET /stations)
+2019/07/29 20:56:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:20 Log successfully initiated
+2019/07/29 20:56:20 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:56:20 Registering GetStations (GET /stations)
+2019/07/29 20:56:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:20 Log successfully initiated
+2019/07/29 20:56:20 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:56:20 Registering GetStations (GET /stations)
+2019/07/29 20:56:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:20 Log successfully initiated
+2019/07/29 20:56:20 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:56:20 Registering GetStations (GET /stations)
+2019/07/29 20:56:20 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:56:20 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:56:20 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:56:20 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:56:21 Log successfully initiated
+2019/07/29 20:56:21 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:57:40 Log successfully initiated
+2019/07/29 20:57:40 Initializing application
+2019/07/29 20:57:40 Registering GetStations (GET /stations)
+2019/07/29 20:57:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:40 Log successfully initiated
+2019/07/29 20:57:40 GetStations  GET /stations  
+2019/07/29 20:57:41 Registering GetStations (GET /stations)
+2019/07/29 20:57:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:42 Log successfully initiated
+2019/07/29 20:57:42 GetStations  GET /stations  
+2019/07/29 20:57:42 Registering GetStations (GET /stations)
+2019/07/29 20:57:42 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:42 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:42 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:42 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:42 Log successfully initiated
+2019/07/29 20:57:42 GetStations  GET /stations  
+2019/07/29 20:57:42 Registering GetStations (GET /stations)
+2019/07/29 20:57:42 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:42 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:42 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:42 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:42 Log successfully initiated
+2019/07/29 20:57:42 GetStations  GET /stations  
+2019/07/29 20:57:42 Registering GetStations (GET /stations)
+2019/07/29 20:57:42 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:42 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:42 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:42 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:43 Log successfully initiated
+2019/07/29 20:57:43 GetStations  GET /stations  
+2019/07/29 20:57:43 Registering GetStations (GET /stations)
+2019/07/29 20:57:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:43 Log successfully initiated
+2019/07/29 20:57:43 GetStations  GET /stations  
+2019/07/29 20:57:43 Registering GetStations (GET /stations)
+2019/07/29 20:57:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:43 Log successfully initiated
+2019/07/29 20:57:43 GetStations  GET /stations  
+2019/07/29 20:57:43 Registering GetStations (GET /stations)
+2019/07/29 20:57:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:44 Log successfully initiated
+2019/07/29 20:57:44 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:57:44 Registering GetStations (GET /stations)
+2019/07/29 20:57:44 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:44 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:44 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:44 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:44 Log successfully initiated
+2019/07/29 20:57:44 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:57:44 Registering GetStations (GET /stations)
+2019/07/29 20:57:44 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:44 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:44 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:44 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:44 Log successfully initiated
+2019/07/29 20:57:44 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:57:45 Registering GetStations (GET /stations)
+2019/07/29 20:57:45 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:57:45 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:57:45 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:57:45 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:57:45 Log successfully initiated
+2019/07/29 20:57:45 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 20:59:37 Log successfully initiated
+2019/07/29 20:59:37 Initializing application
+2019/07/29 20:59:37 Registering GetStations (GET /stations)
+2019/07/29 20:59:37 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:37 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:37 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:37 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:37 Log successfully initiated
+2019/07/29 20:59:37 GetStations  GET /stations  
+2019/07/29 20:59:38 Registering GetStations (GET /stations)
+2019/07/29 20:59:38 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:38 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:38 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:38 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:38 Log successfully initiated
+2019/07/29 20:59:38 GetStations  GET /stations  
+2019/07/29 20:59:38 Registering GetStations (GET /stations)
+2019/07/29 20:59:38 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:38 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:38 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:38 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:38 Log successfully initiated
+2019/07/29 20:59:38 GetStations  GET /stations  
+2019/07/29 20:59:38 Registering GetStations (GET /stations)
+2019/07/29 20:59:38 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:38 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:38 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:38 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:39 Log successfully initiated
+2019/07/29 20:59:39 GetStations  GET /stations  
+2019/07/29 20:59:39 Registering GetStations (GET /stations)
+2019/07/29 20:59:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:39 Log successfully initiated
+2019/07/29 20:59:39 GetStations  GET /stations  
+2019/07/29 20:59:39 Registering GetStations (GET /stations)
+2019/07/29 20:59:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:39 Log successfully initiated
+2019/07/29 20:59:39 GetStations  GET /stations  
+2019/07/29 20:59:39 Registering GetStations (GET /stations)
+2019/07/29 20:59:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:39 Log successfully initiated
+2019/07/29 20:59:39 GetStations  GET /stations  
+2019/07/29 20:59:40 Registering GetStations (GET /stations)
+2019/07/29 20:59:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:40 Log successfully initiated
+2019/07/29 20:59:40 GetStationsInService  GET /stations/in-service  
+2019/07/29 20:59:40 Registering GetStations (GET /stations)
+2019/07/29 20:59:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:41 Log successfully initiated
+2019/07/29 20:59:41 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:59:41 Registering GetStations (GET /stations)
+2019/07/29 20:59:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:41 Log successfully initiated
+2019/07/29 20:59:41 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 20:59:41 Registering GetStations (GET /stations)
+2019/07/29 20:59:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 20:59:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 20:59:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 20:59:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 20:59:41 Log successfully initiated
+2019/07/29 20:59:41 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 21:00:58 Log successfully initiated
+2019/07/29 21:00:58 Initializing application
+2019/07/29 21:00:58 Registering GetStations (GET /stations)
+2019/07/29 21:00:58 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:00:58 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:00:58 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:00:58 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:00:58 Log successfully initiated
+2019/07/29 21:00:58 GetStations  GET /stations  
+2019/07/29 21:00:59 Registering GetStations (GET /stations)
+2019/07/29 21:00:59 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:00:59 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:00:59 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:00:59 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:00 Log successfully initiated
+2019/07/29 21:01:00 GetStations  GET /stations  
+2019/07/29 21:01:00 Registering GetStations (GET /stations)
+2019/07/29 21:01:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:00 Log successfully initiated
+2019/07/29 21:01:00 GetStations  GET /stations  
+2019/07/29 21:01:00 Registering GetStations (GET /stations)
+2019/07/29 21:01:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:00 Log successfully initiated
+2019/07/29 21:01:00 GetStations  GET /stations  
+2019/07/29 21:01:01 Registering GetStations (GET /stations)
+2019/07/29 21:01:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:01 Log successfully initiated
+2019/07/29 21:01:01 GetStations  GET /stations  
+2019/07/29 21:01:01 Registering GetStations (GET /stations)
+2019/07/29 21:01:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:01 Log successfully initiated
+2019/07/29 21:01:01 GetStations  GET /stations  
+2019/07/29 21:01:01 Registering GetStations (GET /stations)
+2019/07/29 21:01:01 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:01 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:01 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:01 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:01 Log successfully initiated
+2019/07/29 21:01:01 GetStations  GET /stations  
+2019/07/29 21:01:02 Registering GetStations (GET /stations)
+2019/07/29 21:01:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:02 Log successfully initiated
+2019/07/29 21:01:02 GetStationsInService  GET /stations/in-service  
+2019/07/29 21:01:02 Registering GetStations (GET /stations)
+2019/07/29 21:01:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:02 Log successfully initiated
+2019/07/29 21:01:02 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 21:01:02 Registering GetStations (GET /stations)
+2019/07/29 21:01:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:02 Log successfully initiated
+2019/07/29 21:01:02 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 21:01:02 Registering GetStations (GET /stations)
+2019/07/29 21:01:02 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:01:02 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:01:02 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:01:02 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:01:02 Log successfully initiated
+2019/07/29 21:01:02 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 21:09:37 Log successfully initiated
+2019/07/29 21:09:37 Initializing application
+2019/07/29 21:09:37 Registering GetStations (GET /stations)
+2019/07/29 21:09:37 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:37 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:37 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:37 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:37 Log successfully initiated
+2019/07/29 21:09:37 GetStations  GET /stations  
+2019/07/29 21:09:38 Registering GetStations (GET /stations)
+2019/07/29 21:09:38 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:38 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:38 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:38 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:39 Log successfully initiated
+2019/07/29 21:09:39 GetStations  GET /stations  
+2019/07/29 21:09:39 Registering GetStations (GET /stations)
+2019/07/29 21:09:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:39 Log successfully initiated
+2019/07/29 21:09:39 GetStations  GET /stations  
+2019/07/29 21:09:39 Registering GetStations (GET /stations)
+2019/07/29 21:09:39 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:39 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:39 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:39 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:39 Log successfully initiated
+2019/07/29 21:09:39 GetStations  GET /stations  
+2019/07/29 21:09:40 Registering GetStations (GET /stations)
+2019/07/29 21:09:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:40 Log successfully initiated
+2019/07/29 21:09:40 GetStations  GET /stations  
+2019/07/29 21:09:40 Registering GetStations (GET /stations)
+2019/07/29 21:09:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:40 Log successfully initiated
+2019/07/29 21:09:40 GetStations  GET /stations  
+2019/07/29 21:09:40 Registering GetStations (GET /stations)
+2019/07/29 21:09:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:40 Log successfully initiated
+2019/07/29 21:09:40 GetStations  GET /stations  
+2019/07/29 21:09:40 Registering GetStations (GET /stations)
+2019/07/29 21:09:40 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:40 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:40 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:40 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:41 Log successfully initiated
+2019/07/29 21:09:41 GetStations  GET /stations  
+2019/07/29 21:09:41 Registering GetStations (GET /stations)
+2019/07/29 21:09:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:41 Log successfully initiated
+2019/07/29 21:09:41 GetStations  GET /stations  
+2019/07/29 21:09:41 Registering GetStations (GET /stations)
+2019/07/29 21:09:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:41 Log successfully initiated
+2019/07/29 21:09:41 GetStations  GET /stations  
+2019/07/29 21:09:41 Registering GetStations (GET /stations)
+2019/07/29 21:09:41 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:41 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:41 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:41 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:42 Log successfully initiated
+2019/07/29 21:09:42 GetStations  GET /stations  
+2019/07/29 21:09:42 Registering GetStations (GET /stations)
+2019/07/29 21:09:42 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:42 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:42 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:42 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:42 Log successfully initiated
+2019/07/29 21:09:42 GetStationsInService  GET /stations/in-service  
+2019/07/29 21:09:43 Registering GetStations (GET /stations)
+2019/07/29 21:09:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:43 Log successfully initiated
+2019/07/29 21:09:43 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 21:09:43 Registering GetStations (GET /stations)
+2019/07/29 21:09:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:43 Log successfully initiated
+2019/07/29 21:09:43 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 21:09:43 Registering GetStations (GET /stations)
+2019/07/29 21:09:43 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:09:43 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:09:43 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:09:43 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:09:44 Log successfully initiated
+2019/07/29 21:09:44 GetIsBikeDockable  GET /dockable/100000000000/100000000  
+2019/07/29 21:10:07 Log successfully initiated
+2019/07/29 21:10:07 Initializing application
+2019/07/29 21:10:08 Registering GetStations (GET /stations)
+2019/07/29 21:10:08 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:10:08 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:10:08 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:10:08 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:10:15 GetIsBikeDockable  GET /dockable/100000000000/100000000 127.0.0.1:51303 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 21:11:00 Log successfully initiated
+2019/07/29 21:11:00 Initializing application
+2019/07/29 21:11:00 Registering GetStations (GET /stations)
+2019/07/29 21:11:00 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:00 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:00 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:00 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:03 GetIsBikeDockable  GET /dockable/100000000000/100000000 127.0.0.1:51353 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+2019/07/29 21:11:09 Log successfully initiated
+2019/07/29 21:11:09 Initializing application
+2019/07/29 21:11:09 Registering GetStations (GET /stations)
+2019/07/29 21:11:09 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:09 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:09 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:09 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:09 Log successfully initiated
+2019/07/29 21:11:09 GetStations  GET /stations  
+2019/07/29 21:11:10 Registering GetStations (GET /stations)
+2019/07/29 21:11:10 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:10 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:10 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:10 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:10 Log successfully initiated
+2019/07/29 21:11:10 GetStations  GET /stations  
+2019/07/29 21:11:10 Registering GetStations (GET /stations)
+2019/07/29 21:11:10 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:10 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:10 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:10 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:10 Log successfully initiated
+2019/07/29 21:11:10 GetStations  GET /stations  
+2019/07/29 21:11:10 Registering GetStations (GET /stations)
+2019/07/29 21:11:10 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:10 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:10 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:10 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:11 Log successfully initiated
+2019/07/29 21:11:11 GetStations  GET /stations  
+2019/07/29 21:11:11 Registering GetStations (GET /stations)
+2019/07/29 21:11:11 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:11 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:11 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:11 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:11 Log successfully initiated
+2019/07/29 21:11:11 GetStations  GET /stations  
+2019/07/29 21:11:11 Registering GetStations (GET /stations)
+2019/07/29 21:11:11 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:11 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:11 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:11 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:11 Log successfully initiated
+2019/07/29 21:11:11 GetStations  GET /stations  
+2019/07/29 21:11:12 Registering GetStations (GET /stations)
+2019/07/29 21:11:12 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:12 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:12 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:12 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:12 Log successfully initiated
+2019/07/29 21:11:12 GetStations  GET /stations  
+2019/07/29 21:11:12 Registering GetStations (GET /stations)
+2019/07/29 21:11:12 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:12 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:12 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:12 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:12 Log successfully initiated
+2019/07/29 21:11:12 GetStations  GET /stations  
+2019/07/29 21:11:12 Registering GetStations (GET /stations)
+2019/07/29 21:11:12 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:12 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:12 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:12 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:12 Log successfully initiated
+2019/07/29 21:11:12 GetStations  GET /stations  
+2019/07/29 21:11:13 Registering GetStations (GET /stations)
+2019/07/29 21:11:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:13 Log successfully initiated
+2019/07/29 21:11:13 GetStations  GET /stations  
+2019/07/29 21:11:13 Registering GetStations (GET /stations)
+2019/07/29 21:11:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:13 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:13 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:13 Log successfully initiated
+2019/07/29 21:11:13 GetStations  GET /stations  
+2019/07/29 21:11:13 Registering GetStations (GET /stations)
+2019/07/29 21:11:13 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:13 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:14 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:14 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:14 Log successfully initiated
+2019/07/29 21:11:14 GetStationsInService  GET /stations/in-service  
+2019/07/29 21:11:14 Registering GetStations (GET /stations)
+2019/07/29 21:11:14 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:14 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:14 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:14 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:15 Log successfully initiated
+2019/07/29 21:11:15 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 21:11:15 Registering GetStations (GET /stations)
+2019/07/29 21:11:15 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:15 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:15 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:15 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:16 Log successfully initiated
+2019/07/29 21:11:16 GetStationsNotInService  GET /stations/not-in-service  
+2019/07/29 21:11:16 Registering GetStations (GET /stations)
+2019/07/29 21:11:16 Registering GetStationsInService (GET /stations/in-service)
+2019/07/29 21:11:16 Registering GetStationsNotInService (GET /stations/not-in-service)
+2019/07/29 21:11:16 Registering GetStationsMatchingString (GET /stations/{search})
+2019/07/29 21:11:16 Registering GetIsBikeDockable (GET /dockable/{stationId}/{bikesToReturn})
+2019/07/29 21:11:16 Log successfully initiated
+2019/07/29 21:11:16 GetIsBikeDockable  GET /dockable/100000000000/100000000  

@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "name": "GetStations",
+      "method": "GET",
+      "uri": "/stations",
+      "handler": "GetStations"
+    },
+    {
+      "name": "GetStationsInService",
+      "method": "GET",
+      "uri": "/stations/in-service",
+      "handler": "GetStationsInService"
+    },
+    {
+      "name": "GetStationsNotInService",
+      "method": "GET",
+      "uri": "/stations/not-in-service",
+      "handler": "GetStationsNotInService"
+    },
+    {
+      "name": "GetStationsMatchingString",
+      "method": "GET",
+      "uri": "/stations/{search}",
+      "handler": "GetStationsMatchingString"
+    },
+    {
+      "name": "GetIsBikeDockable",
+      "method": "GET",
+      "uri": "/dockable/{stationId}/{bikesToReturn}",
+      "handler": "GetIsBikeDockable"
+    }
+  ]
+}
