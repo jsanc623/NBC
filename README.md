@@ -15,11 +15,11 @@ as well as VictorSpringer's http-cache as an in memory HTTP middleware. Lastly, 
 Subosito's gotenv to load configuration data from a .env file, as well 
 as Gorilla Mux. 
 
-[Allegro BigCache](github.com/allegro/bigcache)<br/>
-[Sphire Mantis](github.com/sphireco/mantis)<br/>
-[Subosito Gotenv](github.com/subosito/gotenv)<br/>
-[Gorilla Mux](github.com/gorilla/mux)<br/>
-[VictorSpringer http-cache](github.com/victorspringer/http-cache)
+[Allegro BigCache](https://github.com/allegro/bigcache)<br/>
+[Sphire Mantis](https://github.com/sphireco/mantis)<br/>
+[Subosito Gotenv](https://github.com/subosito/gotenv)<br/>
+[Gorilla Mux](https://github.com/gorilla/mux)<br/>
+[VictorSpringer http-cache](https://github.com/victorspringer/http-cache)
 
 ## Build, Test, Run
 
@@ -27,6 +27,7 @@ To build this project:
 ```bash
 git clone github.com/jsanc623/NBC
 cd NBC
+go get
 go build
 ```
 
@@ -74,7 +75,7 @@ enough docks available at the given :stationId to fit the number of :bikesToRetu
 
 ## Caching
 
-I utilized [http-cache](github.com/victorspringer/http-cache), which 
+I utilized [http-cache](https://github.com/victorspringer/http-cache), which 
 adds a middleware around each request. The cache eviction policy is 
 LRU. Initially I had implemented [Bluele's GCache](https://github.com/bluele/gcache), 
 however I would have had to write my own middleware to wrap the HTTP requests. I chose 
