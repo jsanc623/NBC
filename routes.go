@@ -26,7 +26,7 @@ type Route struct {
 	handler    func(http.ResponseWriter, *http.Request)
 }
 
-// newRoutes Load our default routes
+// newRoutes Define our custom routes here
 func (R *Router) newRoutes() {
 	R.new("GetStations", "GET", "/stations", GetStations, []string{})
 	R.new("GetStationsInService", "GET", "/stations/in-service", GetStationsInService, []string{})
