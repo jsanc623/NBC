@@ -1,108 +1,85 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
-	"github.com/sphireco/mantis"
 	"github.com/victorspringer/http-cache"
-	"github.com/victorspringer/http-cache/adapter/memory"
-	"io/ioutil"
 	"net/http"
-	"time"
 )
 
+type handler func(http.ResponseWriter, *http.Request)
+
+// Router Define our core Router struct
 type Router struct {
-	Routes      Routes
+	Routes      []Route `json:"routes"`
 	router      *mux.Router
-	cacheClient *cache.Client
+	httpCache   *cache.Client
+	middlewares map[string]func(http.Handler) http.Handler
 }
 
-type Routes struct {
-	Route []Route `json:"routes"`
-}
-
+// Route Define a route
 type Route struct {
-	Name    string `json:"name"`
-	Method  string `json:"method"`
-	URI     string `json:"uri"`
-	Handler string `json:"handler"`
+	Name       string   `json:"name"`
+	Method     string   `json:"method"`
+	URI        string   `json:"uri"`
+	Middleware []string `json:"middleware"`
+	handler    func(http.ResponseWriter, *http.Request)
 }
 
-// Routes Attach custom routes to mux
+// newRoutes Load our default routes
+func (R *Router) newRoutes() {
+	R.new("GetStations", "GET", "/stations", GetStations, []string{})
+	R.new("GetStationsInService", "GET", "/stations/in-service", GetStationsInService, []string{})
+	R.new("GetStationsNotInService", "GET", "/stations/not-in-service", GetStationsNotInService, []string{})
+	R.new("GetStationsMatchingString", "GET", "/stations/{search}", GetStationsMatchingString, []string{})
+	R.new("GetIsBikeDockable", "GET", "/dockable/{stationId}/{bikesToReturn}", GetIsBikeDockable, []string{})
+}
+
+// Load Create a new router and attach our default and custom routes
 func (R *Router) Load() {
-	R.newRouter()
-	R.loadRoutes()
+	R.router = mux.NewRouter().StrictSlash(false)
 	R.startCache()
+	R.registerMiddleWare()
 
-	for _, route := range R.Routes.Route {
-		Logger.Write(fmt.Sprintf("Registering %s (%s %s)", route.Name, route.Method, route.URI))
+	R.router.NotFoundHandler = http.HandlerFunc(NotFoundServer)
+	R.new("HomeServer", "GET", "/", HomeServer, []string{})
+	R.new("Status", "GET", "/status", GetStatus, []string{})
+	R.new("Teapot", "GET", "/teapot", Teapot, []string{})
+	R.new("GetRoutes", "GET", "/routes", GetRoutes, []string{})
 
-		// Assign our routes to our handler methods
-		// Could do this with reflect if an unknown number of routes
-		// but chose this method for this assigment since it's just a few known routes
-		var routeHandler func(w http.ResponseWriter, r *http.Request)
-		switch route.Handler {
-		case "GetStations":
-			routeHandler = GetStations
-		case "GetStationsInService":
-			routeHandler = GetStationsInService
-		case "GetStationsNotInService":
-			routeHandler = GetStationsNotInService
-		case "GetStationsMatchingString":
-			routeHandler = GetStationsMatchingString
-		case "GetIsBikeDockable":
-			routeHandler = GetIsBikeDockable
-		default:
-			routeHandler = NotFoundServer
-		}
+	R.newRoutes()
 
-		R.router.Methods(route.Method).
-			Path(route.URI).
-			Name(route.Name).
-			Handler(R.cacheClient.Middleware(logRequest(http.HandlerFunc(routeHandler), route.Name)))
+	for _, route := range R.Routes {
+		Logger.Write(fmt.Sprintf("Activating %s (%s %s)", route.Name, route.Method, route.URI))
+		R.addRoute(route)
 	}
 }
 
-func logRequest(next http.Handler, name string) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		Logger.LogHTTPRequest(name, w, r)
-		next.ServeHTTP(w, r)
+// new Append a new route to our routes
+func (R *Router) new(name string, method string, uri string, handler handler, middleware []string) {
+	Logger.Write(fmt.Sprintf("Registering %s (%s %s)", name, method, uri))
+	R.Routes = append(R.Routes, Route{
+		Name:       name,
+		Method:     method,
+		URI:        uri,
+		handler:    handler,
+		Middleware: middleware,
 	})
 }
 
-// defaultRoutes Creates our default routes
-func (R *Router) newRouter() {
-	R.router = mux.NewRouter().StrictSlash(false)
+// addRoute Add a route to our router
+func (R *Router) addRoute(route Route) {
+	// Apply our two forced middlewares
+	handler := logRequest(http.HandlerFunc(route.handler), route.Name)
+	handler = basicHeaders(handler)
 
-	// Register our default routes
-	R.router.NotFoundHandler = http.HandlerFunc(NotFoundServer)
-	R.router.HandleFunc("/", HomeServer)
-	R.router.HandleFunc("/status", HomeServer)
-	R.router.HandleFunc("/teapot", Teapot)
-}
+	// Apply all of our other middlewares specific to this route
+	if len(route.Middleware) > 0 {
+		for _, middleware := range route.Middleware {
+			handler = R.middlewares[middleware](handler)
+		}
+	}
 
-// loadRoutes Load all of our routes from routes.json
-func (R *Router) loadRoutes() {
-	routesJson, err := ioutil.ReadFile("routes.json")
-	mantis.HandleFatalError(err)
-
-	err = json.Unmarshal(routesJson, &R.Routes)
-	mantis.HandleFatalError(err)
-}
-
-// startCache Start our in memory LRU cache
-func (R *Router) startCache() {
-	memoryCache, err := memory.NewAdapter(
-		memory.AdapterWithAlgorithm(memory.LRU),
-		memory.AdapterWithCapacity(10000000),
-	)
-	mantis.HandleFatalError(err)
-
-	R.cacheClient, err = cache.NewClient(
-		cache.ClientWithAdapter(memoryCache),
-		cache.ClientWithTTL(App.Server.MemCacheTime*time.Minute),
-		cache.ClientWithRefreshKey("opn"),
-	)
-	mantis.HandleFatalError(err)
+	handler = R.httpCache.Middleware(handler)
+	R.router.Methods(route.Method).Path(route.URI).Name(route.Name).Handler(handler)
 }

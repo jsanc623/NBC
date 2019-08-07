@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/allegro/bigcache"
+	"github.com/go-redis/redis"
 	"github.com/sphireco/mantis"
 	"github.com/subosito/gotenv"
 	"net/http"
@@ -13,17 +14,21 @@ import (
 
 // Application Define the application
 type Application struct {
-	Name    string `json:"name"`
-	ID      string `json:"id"`
-	Version string `json:"version"`
-	Log     string `json:"log_location"`
-	Runtime string `json:"runtime"`
-	Server  Server `json:"server"`
-	Token   string `json:"token"`
-	Router  Router `json:"routes"`
-	Cache   *bigcache.BigCache
+	Name     string             `json:"name"`
+	ID       string             `json:"id"`
+	Version  string             `json:"version"`
+	Log      string             `json:"log_location"`
+	Runtime  string             `json:"runtime"`
+	Server   Server             `json:"server"`
+	Token    string             `json:"token"`
+	Router   Router             `json:"routes"`
+	Cache    *bigcache.BigCache `json:"cache"`
+	Redis    *redis.Client      `json:"redis"`
+	Database string             `json:"database"`
+	Emailer  string             `json:"emailer"`
 }
 
+// Server Defines our core Server
 type Server struct {
 	Address      string        `json:"address"`
 	Port         string        `json:"port"`
@@ -38,7 +43,6 @@ var App Application
 // Logger The main logging interface
 var Logger mantis.Log
 
-// init Initialize our application and load our env vars
 func init() {
 	err := gotenv.Load()
 	if err != nil {
@@ -71,6 +75,10 @@ func init() {
 		Runtime: time.Now().UTC().Format(time.RFC3339),
 	}
 
+	if len(os.Getenv("REDIS_ADDRESS")) > 0 {
+		App.Redis = setupRedis()
+	}
+
 	config := bigcache.Config{
 		Shards:             1024,
 		LifeWindow:         10 * time.Minute,
@@ -85,10 +93,8 @@ func init() {
 	Logger.NewLog(App.Log)
 	mantis.SetErrorLog(Logger)
 
-	Logger.Write("Initializing application")
-	fmt.Println("Initializing", App.Name, App.Version)
-	fmt.Println("Start Time", App.Runtime)
-	fmt.Println(App.ID)
+	Logger.Write(fmt.Sprintf("Initializing %s %s @ %s", App.Name, App.Version, App.Runtime))
+	Logger.Write(App.ID + "\n")
 }
 
 func main() {
@@ -101,4 +107,45 @@ func main() {
 	}
 
 	mantis.HandleError("ListenAndServe", srv.ListenAndServe())
+}
+
+func setupRedis() *redis.Client {
+	readTimeout, err := strconv.Atoi(os.Getenv("REDIS_READ_TIMEOUT"))
+	mantis.HandleFatalError(err)
+	writeTimeout, err := strconv.Atoi(os.Getenv("REDIS_WRITE_TIMEOUT"))
+	mantis.HandleFatalError(err)
+	db, err := strconv.Atoi(os.Getenv("REDIS_DB"))
+	mantis.HandleFatalError(err)
+	maxRetries, err := strconv.Atoi(os.Getenv("REDIS_MAX_RETRIES"))
+	mantis.HandleFatalError(err)
+	minRetryBackoff, err := strconv.Atoi(os.Getenv("REDIS_MIN_RETRY_BACKOFF"))
+	mantis.HandleFatalError(err)
+	maxRetryBackoff, err := strconv.Atoi(os.Getenv("REDIS_MAX_RETRY_BACKOFF"))
+	mantis.HandleFatalError(err)
+	dialTimeout, err := strconv.Atoi(os.Getenv("REDIS_DIAL_TIMEOUT"))
+	mantis.HandleFatalError(err)
+	poolSize, err := strconv.Atoi(os.Getenv("REDIS_POOL_SIZE"))
+	mantis.HandleFatalError(err)
+	minIdleConns, err := strconv.Atoi(os.Getenv("REDIS_MIN_IDLE_CONNS"))
+	mantis.HandleFatalError(err)
+
+	client := redis.NewClient(&redis.Options{
+		Addr:            os.Getenv("REDIS_ADDRESS"),
+		Password:        os.Getenv("REDIS_PASSWORD"),
+		DB:              db,
+		MaxRetries:      maxRetries,
+		MinRetryBackoff: time.Duration(minRetryBackoff),
+		MaxRetryBackoff: time.Duration(maxRetryBackoff),
+		DialTimeout:     time.Duration(dialTimeout),
+		ReadTimeout:     time.Duration(readTimeout) * time.Second,
+		WriteTimeout:    time.Duration(writeTimeout) * time.Second,
+		PoolSize:        poolSize,
+		MinIdleConns:    minIdleConns,
+	})
+
+	pong, err := client.Ping().Result()
+	mantis.HandleFatalError(err)
+	fmt.Println(pong) // Output: PONG
+
+	return client
 }

@@ -121,7 +121,7 @@ func TestInvalidPage(t *testing.T) {
 	response := executeRequestViaRecorder(req)
 
 	resp := checkResponseCodeAndUnmarshalJSON(t, http.StatusOK, response.Code, response.Body.String(), true)
-	if len(resp) == 0{
+	if len(resp) == 0 {
 		t.Errorf("Received no stations out of service for invalid page")
 	}
 }
